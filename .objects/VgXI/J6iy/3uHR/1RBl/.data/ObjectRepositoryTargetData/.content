@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YaF-4ZiZE0yFKgBwaoqL0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d9b44d43-5059-447e-9bac-b565d93631e8" CvElementArea="478, 237, 165, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-valid hasDatepicker allowsmartnote_original ng-empty ng-dirty ng-valid-parse ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="56dd5068-ee49-4a2e-bc22-5ac0426198d4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d9b44d43-5059-447e-9bac-b565d93631e8" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="6c15c11d-26e8-4380-9d83-8712e54375ff" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="66a9a62e8ed2013f4b46d73761a66d93.png" xmlns="">0czBB3XFnB0y0zULQUFHKcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

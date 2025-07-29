@@ -119,7 +119,7 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1246,26454" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1246,26542" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="NoDOSDate" />
       <Variable x:TypeArguments="x:String" Name="DOSDate" />
@@ -160,21 +160,21 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile FilePath="{x:Null}" sap2010:Annotation.AnnotationText="Se carga el archivo del que se va a extraer la información y se almacena en un Data Table. IMPORTANTE: modificar la ruta de donde se va a extraer el archivo" DataTable="[dtClaims]" Delimitator="Semicolon" DelimitatorForViewModel="Semicolon" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="1022,247" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" PathResource="[LocalResource.FromPath(&quot;C:\\Users\\carog\\Downloads\\sout_palm_prueba_training.csv&quot;)]">
+    <ui:ReadCsvFile FilePath="{x:Null}" sap2010:Annotation.AnnotationText="Se carga el archivo del que se va a extraer la información y se almacena en un Data Table. IMPORTANTE: modificar la ruta de donde se va a extraer el archivo" DataTable="[dtClaims]" Delimitator="Semicolon" DelimitatorForViewModel="Semicolon" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="1092,247" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" PathResource="[LocalResource.FromPath(&quot;C:\\Users\\carog\\Downloads\\sout_palm_prueba_training.csv&quot;)]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ReadCsvFile>
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" sap2010:Annotation.AnnotationText="" ColumnName="finalResult" DataTable="[dtClaims]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="1022,252" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1">
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" sap2010:Annotation.AnnotationText="" ColumnName="finalResult" DataTable="[dtClaims]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="1092,252" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:AddDataColumn>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1022,482" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1092,482" sap2010:WorkflowViewState.IdRef="CommentOut_4">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,371" sap2010:WorkflowViewState.IdRef="Sequence_58">
           <sap:WorkflowViewStateService.ViewState>
@@ -195,19 +195,19 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Inicia la parte del navegador web, para este caso se usa microsoft edge pero si desea se puede cambiar" AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,25419" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Inicia la parte del navegador web, para este caso se usa microsoft edge pero si desea se puede cambiar" AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,25507" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,25147" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1058,25235" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter username to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="rmunera1" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter username to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,288" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="rmunera1" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" ContentHash="mMpivevxpkSxtPrXiQMmNw" DesignTimeRectangle="62, 538, 320, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='doctorID' tag='INPUT' type='text' class='form-control login-box clearable' aaname='Enter username to continue' /&gt;" Guid="4c129c74-f4c1-4f74-9e53-2a4bfeae2018" InformativeScreenshot="8f5ca7974e0fac3eb70af817caba27c0.png" Reference="oj8TssCIikaq5KGQBxCNHQ/Mp1NEeXC-kSsB5WEtekaKA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -228,7 +228,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'eClinicalWorks V12.0.2 …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'eClinicalWorks V12.0.2 …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" CVScreenId="115670cd-5394-4c25-886e-dc3adc2bd777" ContentHash="hCOLJHannEy48kCOpGAx1g" CvElementArea="75, 655, 403, 53" CvTextArea="257, 674, 37, 16" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="77, 656, 400, 52" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' type='submit' class='btn btn-emr btn-sm agentButton' aaname='Next' check:text='Next' /&gt;" Guid="e1bac177-a3c9-492f-8266-e233e41ff0fd" InformativeScreenshot="6521a052fbda893ee64b6c0c62d49695.png" Reference="oj8TssCIikaq5KGQBxCNHQ/gAU0rqj_IkeVKv6pcgU_2Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -243,7 +243,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="3" DisplayName="Type Into 'Enter Password to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="Telemed2025*" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="3" DisplayName="Type Into 'Enter Password to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,288" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="Telemed2025/" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" ContentHash="S7XBFiKP5k685JUxdH6H-A" DesignTimeRectangle="61, 603, 256, 40" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='passwordField' tag='INPUT' type='password' class='pwd-eye-glyph pull-left ui-keyboard-input ui-widget-content ui-corner-all ui-keyboard-nokeyboard' aaname='Enter Password to continue' /&gt;" Guid="5ecd2d64-4154-421e-a865-cb0c7349ff0d" InformativeScreenshot="609797d27861ea39bdde1f17a7894086.png" Reference="oj8TssCIikaq5KGQBxCNHQ/5tQAGbGNbEe39xkqPq1-_w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -264,7 +264,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'eClinicalWorks Verify y…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'eClinicalWorks Verify y…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" ContentHash="DB-dvX0jxUG5iEpCMadhcw" DesignTimeRectangle="61, 588, 256, 40" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='passwordField' tag='INPUT' type='password' class='pwd-eye-glyph pull-left ui-keyboard-input ui-widget-content ui-corner-all' aaname='Enter Password to continue' /&gt;" Guid="3fde6ea2-6eb0-41fc-900a-81c978ddc8bf" InformativeScreenshot="9a345d1e43f6d4f64ce55d197da48952.png" Reference="oj8TssCIikaq5KGQBxCNHQ/gPI_JHcFW0KJ3ERbysBHWg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -285,7 +285,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_17" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_17" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -297,45 +297,56 @@
                 </uix:VerifyExecutionOptions>
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
-            <uix:NCheckState DelayBefore="3" DisplayName="Check App State 'DIV'" sap:VirtualizedContainerService.HintSize="954,533" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1024,695" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="988,584" sap2010:WorkflowViewState.IdRef="Sequence_59">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp" CVScreenId="ad19225e-8be2-4b17-a708-96e3f686f3f0" ContentHash="jWjnpXiclEqnDbJWwd7wrA" CvElementArea="1286, 106, 33, 31" CvTextArea="1295, 115, 12, 12" CvType="Icon" DesignTimeRectangle="1283, 104, 41, 34" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='changePasswordBtn4' tag='BUTTON' type='button' class='close' aaname='×                 ' check:innerText='×' /&gt;" Guid="c356732a-b9e5-47b1-9a00-77b61dfe4d90" ImageBase64="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" InformativeScreenshot="487a9c90fc8549f3239aa338963d2224.png" Reference="oj8TssCIikaq5KGQBxCNHQ/FS-qKcfZEkC_YsKHDU2nAg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
+                  <uix:NCheckState DelayBefore="3" DisplayName="Check App State 'DIV'" sap:VirtualizedContainerService.HintSize="954,524" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp" CVScreenId="ad19225e-8be2-4b17-a708-96e3f686f3f0" ContentHash="jWjnpXiclEqnDbJWwd7wrA" CvElementArea="1286, 106, 33, 31" CvTextArea="1295, 115, 12, 12" CvType="Icon" DesignTimeRectangle="1283, 104, 41, 34" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='changePasswordBtn4' tag='BUTTON' type='button' class='close' aaname='×                 ' check:innerText='×' /&gt;" Guid="c356732a-b9e5-47b1-9a00-77b61dfe4d90" ImageBase64="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" InformativeScreenshot="487a9c90fc8549f3239aa338963d2224.png" Reference="oj8TssCIikaq5KGQBxCNHQ/FS-qKcfZEkC_YsKHDU2nAg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp" CVScreenId="ad19225e-8be2-4b17-a708-96e3f686f3f0" ContentHash="FuqgAYCjjkyCmOFygsUTZg" CvTextArea="624, 112, 683, 17" CvTextArgument="eClinicalWorks X" CvType="Text" DesignTimeRectangle="624, 112, 683, 18" DesignTimeScaleFactor="1.25" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='clearfix' parentid='alert' tag='DIV' type='' aaname='' /&gt;" Guid="09f5c621-5388-498b-a739-86eba16a500d" InformativeScreenshot="0f0cdc447530f1687a26d2e9381da4e7.png" Reference="oj8TssCIikaq5KGQBxCNHQ/dL7s5T6SuU2nKltoTIKM6g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
                 </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp" CVScreenId="ad19225e-8be2-4b17-a708-96e3f686f3f0" ContentHash="FuqgAYCjjkyCmOFygsUTZg" CvTextArea="624, 112, 683, 17" CvTextArgument="eClinicalWorks X" CvType="Text" DesignTimeRectangle="624, 112, 683, 18" DesignTimeScaleFactor="1.25" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='clearfix' parentid='alert' tag='DIV' type='' aaname='' /&gt;" Guid="09f5c621-5388-498b-a739-86eba16a500d" InformativeScreenshot="0f0cdc447530f1687a26d2e9381da4e7.png" Reference="oj8TssCIikaq5KGQBxCNHQ/dL7s5T6SuU2nKltoTIKM6g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="25" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="25" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="MHkMcKE8s0i9dHF1aG7Iow" DesignTimeRectangle="1222, 510, 20, 20" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='BUTTON' type='button' class='close' aaname='' /&gt;" Guid="ba61733e-106d-4299-a086-ceb080f535e1" InformativeScreenshot="4df9ec232c41527d592e2892947dc88f.png" Reference="oj8TssCIikaq5KGQBxCNHQ/sMEFEfgUSUiy6kwPVuJI-w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -350,7 +361,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A jellybean-panelLink4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A jellybean-panelLink4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="de2b3c90-1616-4d03-9c61-d479aff12ffd" ContentHash="c5sBeGwAY0WOptIeE28R6A" CvElementArea="11, 125, 63, 43" CvType="Button" DesignTimeRectangle="12, 127, 61, 40" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='jellybean-panelLink4' tag='A' type='' class='navgator mainMenu' aaname='' /&gt;" Guid="9a4abc1c-150e-4f53-ae50-ef67499f6cb2" InformativeScreenshot="615b4ec059f01ade14e9a170b572693f.png" Reference="oj8TssCIikaq5KGQBxCNHQ/-x0B99eCSkeq0NZdxC0HZw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -365,7 +376,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="615cf7b4-45a8-40ef-88c3-0efbc0d33b97" ContentHash="uApXZdtB2E6Gp10pyENoig" CvElementArea="12, 510, 61, 43" CvType="Button" DesignTimeRectangle="12, 511, 61, 29" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='Billing_menu' tag='I' type='' class='icon nav-label icon-label-bill' aaname='' /&gt;" Guid="365ea1ea-7574-4cef-a405-3f5ea1e0ec89" InformativeScreenshot="420c34c537f753e1d6b1f8c76760be5b.png" Reference="oj8TssCIikaq5KGQBxCNHQ/yCseNpwh9U6W0tZ_ipZiLA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -380,7 +391,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="[CDbl(10)]" DelayBefore="[CDbl(5)]" DisplayName="Click 'Claims CTRL + ALT + VC'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="[CDbl(10)]" DelayBefore="[CDbl(5)]" DisplayName="Click 'Claims CTRL + ALT + VC'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="2a42116e-bc0f-4503-80a2-12999b14895d" ContentHash="-qETxSKHXkC-Feww0HGBhQ" CvTextArea="100, 569, 330, 13" CvTextArgument="O Claims CTRL + ALT + VC" CvType="Text" DesignTimeRectangle="99, 564, 358, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='CLAIMS_BILLING' tag='A' type='' class='hk-target hk-decorated' aaname='Claims CTRL + ALT + VC' check:innerText='Claims&amp;#xA;CTRL + ALT + VC' /&gt;" Guid="975eb459-d5ea-46e3-ba1b-bc91cc389ab6" InformativeScreenshot="81b3e7aebc8a7eb1a7014d5b17c42e97.png" Reference="oj8TssCIikaq5KGQBxCNHQ/HZywvWDZ5EeTF8LBVLmByA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -395,7 +406,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,227" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="cff7a8b1-a2ef-4cf2-adcc-8645c74d7c7d" ContentHash="oG1j9m_B30WsIDsClFt_Pg" CvElementArea="161, 211, 17, 17" CvType="CheckBox" DesignTimeRectangle="164, 213, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='claimLookupIpt2' type='checkbox' tag='INPUT' class='ng-pristine ng-untouched ng-valid ng-not-empty' aaname='' /&gt;" Guid="8fb856c2-8216-4159-a279-acc77f81a4aa" InformativeScreenshot="cdc17570262e6950129845231a958959.png" Reference="oj8TssCIikaq5KGQBxCNHQ/Wz97MmLcNEGAZzFE6WrQBQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -416,7 +427,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <Assign sap:VirtualizedContainerService.HintSize="954,115" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign sap:VirtualizedContainerService.HintSize="1024,115" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="s:String[]">[dateColumns]</OutArgument>
               </Assign.To>
@@ -424,13 +435,13 @@
                 <InArgument x:TypeArguments="s:String[]">[{"DOB", "InitialUpload", "99454 DOS", "TrainingDate"}]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Se recorren los registros para hacer la validación y extracción de los datos según el formato necesario, se validan tambien que las fechas se encuentren en el formato adecuado MM/DD/AAAA. Si alguna de las fechas no cumple con el formato actualmente se salta ese registro y continua con el siguiente" DataTable="[dtClaims]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="954,21842" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Se recorren los registros para hacer la validación y extracción de los datos según el formato necesario, se validan tambien que las fechas se encuentren en el formato adecuado MM/DD/AAAA. Si alguna de las fechas no cumple con el formato actualmente se salta ese registro y continua con el siguiente" DataTable="[dtClaims]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1024,21768" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="612,21583" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="612,21509" sap2010:WorkflowViewState.IdRef="Sequence_24">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -653,9 +664,9 @@
                         </ActivityAction>
                       </ui:ForEach.Body>
                     </ui:ForEach>
-                    <If Condition="[not hasInvalidDate]" sap:VirtualizedContainerService.HintSize="578,18819" sap2010:WorkflowViewState.IdRef="If_9">
+                    <If Condition="[not hasInvalidDate]" sap:VirtualizedContainerService.HintSize="578,18745" sap2010:WorkflowViewState.IdRef="If_9">
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="576,18523" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="576,18449" sap2010:WorkflowViewState.IdRef="Sequence_34">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -812,16 +823,27 @@
                               </Assign>
                             </Sequence>
                           </Switch>
-                          <If Condition="[Not String.IsNullOrEmpty(trainingDate)]" sap:VirtualizedContainerService.HintSize="542,1060" sap2010:WorkflowViewState.IdRef="If_10">
+                          <If Condition="[Not String.IsNullOrEmpty(trainingDate)]" sap:VirtualizedContainerService.HintSize="542,1222" sap2010:WorkflowViewState.IdRef="If_10">
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,399" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="520,561" sap2010:WorkflowViewState.IdRef="Sequence_32">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="470,118" sap2010:WorkflowViewState.IdRef="MessageBox_13" Text="[patientName +&quot; &quot;+ birthdate +&quot; &quot;+ trainingDate +&quot; &quot;+ providerName]" />
-                                <Assign sap:VirtualizedContainerService.HintSize="470,115" sap2010:WorkflowViewState.IdRef="Assign_80">
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,280" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                                  <ui:CommentOut.Body>
+                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,169" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,109" sap2010:WorkflowViewState.IdRef="MessageBox_13" Text="[patientName +&quot; &quot;+ birthdate +&quot; &quot;+ trainingDate +&quot; &quot;+ providerName]" />
+                                    </Sequence>
+                                  </ui:CommentOut.Body>
+                                </ui:CommentOut>
+                                <Assign sap:VirtualizedContainerService.HintSize="486,115" sap2010:WorkflowViewState.IdRef="Assign_80">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:String">[codigo1]</OutArgument>
                                   </Assign.To>
@@ -829,7 +851,7 @@
                                     <InArgument x:TypeArguments="x:String">99453</InArgument>
                                   </Assign.Value>
                                 </Assign>
-                                <Assign sap:VirtualizedContainerService.HintSize="470,106" sap2010:WorkflowViewState.IdRef="Assign_81">
+                                <Assign sap:VirtualizedContainerService.HintSize="486,106" sap2010:WorkflowViewState.IdRef="Assign_81">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:String">[serviceDate]</OutArgument>
                                   </Assign.To>
@@ -840,13 +862,13 @@
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,522" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="520,522" sap2010:WorkflowViewState.IdRef="Sequence_33">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <If Condition="[Not String.IsNullOrEmpty(DOSDate)]" sap:VirtualizedContainerService.HintSize="470,462" sap2010:WorkflowViewState.IdRef="If_11">
+                                <If Condition="[Not String.IsNullOrEmpty(DOSDate)]" sap:VirtualizedContainerService.HintSize="486,462" sap2010:WorkflowViewState.IdRef="If_11">
                                   <If.Then>
                                     <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_36">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -915,11 +937,11 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'RUIZ, ANDRES F'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_88" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'RUIZ, ANDRES F'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_88" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d559e269-d209-45aa-925a-f41c3735ebe7" ContentHash="1_GCnyii2Em4zmpXurK-DA" CvElementArea="718, 458, 16, 16" CvType="CheckBox" DesignTimeRectangle="720, 460, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='group_msg1' tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='ng-pristine ng-untouched ng-valid ng-empty' aaname='' /&gt;" Guid="3a35824d-dcb7-46ff-9e2c-bec4506e9c66" InformativeScreenshot="11049275fd4ffbec5a0571f0052601ce.png" Reference="oj8TssCIikaq5KGQBxCNHQ/byVJxsL3C0awYmk02dqnMA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="d559e269-d209-45aa-925a-f41c3735ebe7" CvTextArea="761, 459, 90, 14" CvTextArgument="RUIZ, ANDRES F" CvType="Text" DesignTimeRectangle="757, 457, 93, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='group_msg1' tag='TABLE' /&gt;&lt;webctrl class='ng-binding' type='' tag='SPAN' aaname='RUIZ, ANDRES F' check:innerText='RUIZ, ANDRES F' /&gt;" Guid="d1b12fe0-9e4c-4bd3-92b8-e28cfead314c" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -955,7 +977,7 @@
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" ContentHash="YIxwpZfoY0S4Z5Siw2VoGw" CvElementArea="265, 237, 164, 26" CvType="InputBox" DesignTimeRectangle="266, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='fromdate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="95e4c8be-8a18-43ed-ba4e-cf9a28bb5771" InformativeScreenshot="5ca3c55c249a946e844acdfd14b09bce.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/gE0SjrV1n0KtWDs4w9erzg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="181, 246, 67, 13" CvTextArgument="Service Dt(s)" CvType="Text" DesignTimeRectangle="183, 244, 65, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='toggledropdown ng-binding' aaname='Service Dt(s)' check:innerText='Service Dt(s)' /&gt;" Guid="f9396724-0bda-423c-bd7e-1bbb21f1d50d" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -972,7 +994,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="1" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_15" Shortcuts="[d(hk)][k(back)][u(hk)]" Version="V4">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_15" Shortcuts="[d(hk)][k(back)][u(hk)]" Version="V4">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -986,10 +1008,10 @@
                           </uix:NKeyboardShortcuts>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Service Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,288" sap2010:WorkflowViewState.IdRef="NTypeInto_34" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[serviceDate]" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" ContentHash="-4mKGhrn90yekpLCWM2bww" CvElementArea="477, 237, 166, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="a91df94f-ae19-4bfa-95e8-41d9ac952b74" InformativeScreenshot="61f1c823443984fb35cbc82dd0ffc167.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/ZmIWwH8zpE2qe1vm49dUgg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="670db661-4199-40c2-b641-ac19eacf3d4e" ContentHash="qhhCO-9SuEyFStkvZe1s_Q" CvElementArea="265, 237, 164, 26" CvType="InputBox" DesignTimeRectangle="266, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='fromdate' type='text' tag='INPUT' class='form-control fut-enabled ng-valid hasDatepicker allowsmartnote_original ng-empty ng-dirty ng-valid-parse ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="ce64f7b7-efca-4af4-884c-7245b0044dda" InformativeScreenshot="6b4437db4f4523857ed6bf0d918ce996.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/ZmIWwH8zpE2qe1vm49dUgg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="b6ce16bd-a5d4-4a97-a7d7-88c182532902" SearchSteps="FuzzySelector, CV" />
+                                    <uix:Target CVScreenId="670db661-4199-40c2-b641-ac19eacf3d4e" CvTextArea="181, 246, 67, 13" CvTextArgument="Service Dt(s)" CvType="Text" DesignTimeRectangle="183, 244, 65, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='toggledropdown ng-binding' aaname='Service Dt(s)' check:innerText='Service Dt(s)' /&gt;" Guid="2fa0395b-e99d-4b5c-92c8-83921a764c57" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
@@ -1009,7 +1031,7 @@
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" ContentHash="uk4t9T36vUe1-wapDBlP6g" CvElementArea="477, 237, 166, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="8bc634f3-25a5-4556-83bb-eaf7a435aa18" InformativeScreenshot="61f1c823443984fb35cbc82dd0ffc167.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/ibk7JdusckC3hjN9EZpcbA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="1b8085f3-69f1-41b3-9e51-eb88bc1c3f00" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -1038,12 +1060,12 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Service Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,288" sap2010:WorkflowViewState.IdRef="NTypeInto_35" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[serviceDate]" Version="V4">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="2" DisplayName="Type Into 'To'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,288" sap2010:WorkflowViewState.IdRef="NTypeInto_36" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[serviceDate]" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" ContentHash="-4mKGhrn90yekpLCWM2bww" CvElementArea="477, 237, 166, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="a91df94f-ae19-4bfa-95e8-41d9ac952b74" InformativeScreenshot="61f1c823443984fb35cbc82dd0ffc167.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/ZmIWwH8zpE2qe1vm49dUgg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d9b44d43-5059-447e-9bac-b565d93631e8" ContentHash="YaF-4ZiZE0yFKgBwaoqL0w" CvElementArea="478, 237, 165, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-valid hasDatepicker allowsmartnote_original ng-empty ng-dirty ng-valid-parse ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="56dd5068-ee49-4a2e-bc22-5ac0426198d4" InformativeScreenshot="66a9a62e8ed2013f4b46d73761a66d93.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/1RBlvvyPxUy6Zu1LLEteAg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="b6ce16bd-a5d4-4a97-a7d7-88c182532902" SearchSteps="FuzzySelector, CV" />
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CVScreenId="d9b44d43-5059-447e-9bac-b565d93631e8" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="6c15c11d-26e8-4380-9d83-8712e54375ff" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
@@ -1059,7 +1081,7 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NSelectItem DisplayName="Select Item 'Claim Status'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="2025 MCARE HOLD" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NSelectItem DelayBefore="1" DisplayName="Select Item 'Claim Status'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="2025 MCARE HOLD" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NSelectItem.Items>
                               <scg:List x:TypeArguments="x:String" Capacity="36">
                                 <x:String>Encounters Without Claims</x:String>
@@ -1131,7 +1153,7 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CFM RPM PATIENT(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_89" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'CFM RPM PATIENT(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_89" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="fa359de2-e9e0-4e23-bbfd-ac4ae28fcd95" ContentHash="1meF7uwhmUijx13XuEP1vQ" CvTextArea="804, 301, 106, 12" CvTextArgument="[providerName]" CvType="Text" DesignTimeRectangle="805, 301, 418, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl3' tag='TABLE' /&gt;&lt;webctrl type='' tag='H4' class='' aaname='{{facility}}' /&gt;" Guid="3ed7ef39-8e7f-40fd-878d-dce4779f8a24" InformativeScreenshot="c297ed2684016b97737e82f7b299c499.png" Reference="oj8TssCIikaq5KGQBxCNHQ/7FRrtAlMWUWmcx2hFdS0RQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
                             </uix:NClick.Target>
@@ -1161,7 +1183,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Claims(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_58" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Claims(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_58" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="7f28aa21-bd85-4332-93be-5f35f0944c1d" ContentHash="w1AS_oJJNEW2uyXWb0qgHQ" CvElementArea="82, 415, 72, 27" CvType="Button" DesignTimeRectangle="83, 417, 70, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupBtn10' tag='BUTTON' type='button' class='btn btn-default btn-xs btn-aquagrey dropdown-toggle' aaname='Claims                                 ' check:innerText='Claims' /&gt;" Guid="4a99635a-12d1-4e64-9272-f3e10e608775" InformativeScreenshot="61ac93d20359b0a86d3934752a95e1cd.png" Reference="oj8TssCIikaq5KGQBxCNHQ/c8kWfulW2UWjzBq1iSgLdQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
                             </uix:NClick.Target>
@@ -1404,12 +1426,12 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Service Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,288" sap2010:WorkflowViewState.IdRef="NTypeInto_24" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[serviceDate]" Version="V4">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Service Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,288" sap2010:WorkflowViewState.IdRef="NTypeInto_37" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[serviceDate]" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" ContentHash="-4mKGhrn90yekpLCWM2bww" CvElementArea="477, 237, 166, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="a91df94f-ae19-4bfa-95e8-41d9ac952b74" InformativeScreenshot="61f1c823443984fb35cbc82dd0ffc167.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/ZmIWwH8zpE2qe1vm49dUgg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="41118567-c832-4dc6-8ccb-e3c77034e4a1" ContentHash="8Na6PDMdHUO4RqELN5Se2g" CvElementArea="801, 525, 412, 26" CvType="InputBox" DesignTimeRectangle="804, 526, 407, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimserviceDate' tag='INPUT' type='text' class='form-control only-date-time ng-valid hasDatepicker allowsmartnote_original ng-empty ng-dirty ng-valid-parse ng-touched' aaname='' /&gt;" Guid="ffeadd95-958a-4225-8b0f-cfdc80db350f" InformativeScreenshot="5a70a967d5b7bd9071cbfb187c717bdf.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/_p9HYi9Cy0OY3LD5E80ZqA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="b6ce16bd-a5d4-4a97-a7d7-88c182532902" SearchSteps="FuzzySelector, CV" />
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CVScreenId="41118567-c832-4dc6-8ccb-e3c77034e4a1" CvTextArea="698, 528, 70, 11" CvTextArgument="Service Date" CvType="Text" DesignTimeRectangle="700, 526, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Service Date' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' check:innerText='Service Date' /&gt;" Guid="014c0b13-1b2d-4bd4-87b7-3cb7e5be1d20" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
@@ -1511,7 +1533,7 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'LAWLER, THOMAS, T (81Y,…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_77" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'LAWLER, THOMAS, T (81Y,…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_77" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="3190860c-43e3-4906-91ac-165b131e6dd4" ContentHash="nMtNd6rz6U-XEhv2s5wCBg" CvElementArea="1108, 580, 34, 16" CvTextArgument="[patientName]" CvType="InputBox" DesignTimeRectangle="815, 586, 336, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='patient-lookupUl1' tag='H4' class='' aaname='{{patientName}}'/&gt;" Guid="be634ca7-e35c-4969-bff5-141c1fdbf7e5" InformativeScreenshot="a6a1dc8146aa6c8dab01975cd9b99c12.png" Reference="oj8TssCIikaq5KGQBxCNHQ/uqdAWFx4hEqz_CzHhZzTxQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
                             </uix:NClick.Target>
@@ -1611,10 +1633,10 @@
                               </scg:List>
                             </uix:NSelectItem.Items>
                             <uix:NSelectItem.Target>
-                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="524f1f05-7d1b-4381-aa83-e63be00f01eb" ContentHash="TZFVjaMe0UWe-ChGw8l1xA" CvElementArea="1240, 391, 184, 23" CvType="InputBox" DesignTimeRectangle="1241, 392, 182, 21" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl id='claimStatusSel1753676320313' type='' tag='SELECT' class='form-control input-sm ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched' aaname='' /&gt;" Guid="fa92b841-80cf-4230-a5bd-eed789baff19" InformativeScreenshot="356f96595ddb878afaa5fff5cb377c34.png" Reference="oj8TssCIikaq5KGQBxCNHQ/Uzk7XrLOgUikbzOA8fdK7w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="ab3f9ffb-eb74-465f-a88d-dc3538ea5614" ContentHash="uRy_HZddW0mcGmdi2Z1VuA" CvElementArea="1241, 391, 184, 23" CvType="InputBox" DesignTimeRectangle="1241, 392, 182, 21" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753822615726' tag='TABLE' /&gt;&lt;webctrl id='claimStatusSel1753822615726' type='' tag='SELECT' class='form-control input-sm ng-pristine ng-untouched ng-valid ng-not-empty' aaname='' /&gt;" Guid="ba71e4ee-3168-4ab5-9425-df30d27e806e" InformativeScreenshot="8622da9a686f3d9acec45133dce460fb.png" Reference="oj8TssCIikaq5KGQBxCNHQ/Uzk7XrLOgUikbzOA8fdK7w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="524f1f05-7d1b-4381-aa83-e63be00f01eb" CvTextArea="1166, 398, 68, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="1131, 396, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' check:innerText='Claim Status' /&gt;" Guid="bd8d8680-49ea-49a7-a7f2-2e0253eb6418" SearchSteps="FuzzySelector, CV" />
+                                    <uix:Target CVScreenId="ab3f9ffb-eb74-465f-a88d-dc3538ea5614" CvTextArea="1166, 398, 68, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="1131, 396, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753822615726' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' check:innerText='Claim Status' /&gt;" Guid="c5f015c0-3d19-4cd3-8a26-124e2c69312d" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
@@ -1804,9 +1826,15 @@
                                                 <InArgument x:TypeArguments="x:String">99457</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="NTypeInto_29" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[codigo1]" Version="V4">
+                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[codigo1]" Version="V4">
                                               <uix:NTypeInto.Target>
-                                                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="FzQkvJ9iu0Ous6z70Z4SHQ" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753676320313' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753676320313 closable1753676320313 ng-pristine ng-valid ng-empty allowsmartnote_original ng-touched idt-alert-subject' aaname='' /&gt;" Guid="b27c1142-1f20-4cf4-b021-220fac108060" InformativeScreenshot="70222bc3c21f9c8d5e7c06ccc479d68d.png" Reference="oj8TssCIikaq5KGQBxCNHQ/bCWXVuBkh0SKP1ZnNV096g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                                                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="UBrAdvpOUkqUsEcFAdizHg" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753770983193 closable1753770983193 ng-pristine ng-untouched ng-valid ng-empty allowsmartnote_original' aaname='' /&gt;" Guid="829686f8-46f2-49ec-b520-5641a5f83d76" InformativeScreenshot="a47e8c9023b5269a3880e34c4de11ad7.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/7tAtgZLakkGsnEaJhiVS5Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="f5893ad2-0506-4b90-845a-130a794bf2ac" CvTextArea="484, 660, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="474, 656, 30, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='text-center' aaname='*' check:innerText='*' /&gt;" Guid="96567ae2-ff16-4b33-83da-780d96a2cae8" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
                                               </uix:NTypeInto.Target>
                                               <uix:NTypeInto.VerifyOptions>
                                                 <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
@@ -1883,9 +1911,15 @@
                                                 <InArgument x:TypeArguments="x:String">99457</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="NTypeInto_30" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[codigo1]" Version="V4">
+                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="NTypeInto_39" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Text="[codigo1]" Version="V4">
                                               <uix:NTypeInto.Target>
-                                                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="FzQkvJ9iu0Ous6z70Z4SHQ" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753676320313' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753676320313 closable1753676320313 ng-pristine ng-valid ng-empty allowsmartnote_original ng-touched idt-alert-subject' aaname='' /&gt;" Guid="b27c1142-1f20-4cf4-b021-220fac108060" InformativeScreenshot="70222bc3c21f9c8d5e7c06ccc479d68d.png" Reference="oj8TssCIikaq5KGQBxCNHQ/bCWXVuBkh0SKP1ZnNV096g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                                                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="UBrAdvpOUkqUsEcFAdizHg" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753770983193 closable1753770983193 ng-pristine ng-untouched ng-valid ng-empty allowsmartnote_original' aaname='' /&gt;" Guid="829686f8-46f2-49ec-b520-5641a5f83d76" InformativeScreenshot="a47e8c9023b5269a3880e34c4de11ad7.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/7tAtgZLakkGsnEaJhiVS5Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="f5893ad2-0506-4b90-845a-130a794bf2ac" CvTextArea="484, 660, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="474, 656, 30, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='text-center' aaname='*' check:innerText='*' /&gt;" Guid="96567ae2-ff16-4b33-83da-780d96a2cae8" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
                                               </uix:NTypeInto.Target>
                                               <uix:NTypeInto.VerifyOptions>
                                                 <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
@@ -1958,7 +1992,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NGetText DelayBefore="1" DisplayName="Get Text 'Home Phone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" TextString="[patientPhoneNumberTypi]" Version="V4">
+                          <uix:NGetText DelayAfter="2" DelayBefore="3" DisplayName="Get Text 'Home Phone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" TextString="[patientPhoneNumberTypi]" Version="V4">
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" ContentHash="hcsW39IBLUiamfYhuAylAQ" CvElementArea="457, 573, 107, 27" CvType="InputBox" DesignTimeRectangle="459, 574, 103, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl id='pthomephone' type='text' tag='INPUT' class='form-control clearable ng-pristine ng-valid allowsmartnote_original hk-target hk-decorated ng-not-empty ng-touched idt-alert-subject' aaname='ALT + H' /&gt;" Guid="4e2bf50b-192f-4231-9464-6d2cd2edd5d6" InformativeScreenshot="d658e810e8544b52149b53047ffd39e8.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/IZSv2qglu0O9tjGgdaLQYw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1969,8 +2003,7 @@
                               </uix:TargetAnchorable>
                             </uix:NGetText.Target>
                           </uix:NGetText>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="542,118" sap2010:WorkflowViewState.IdRef="MessageBox_18" Text="[patientPhoneNumberTypi]" />
-                          <uix:NGetText DisplayName="Get Text 'Cell Phone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" TextString="[patientCellPhoneTypi]" Version="V4">
+                          <uix:NGetText DelayBefore="2" DisplayName="Get Text 'Cell Phone'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,190" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" TextString="[patientCellPhoneTypi]" Version="V4">
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="bc3e18b4-4879-4b1a-bd57-b7c22d8154d1" ContentHash="k2dLExUjXU-xRrk238a_sg" CvElementArea="655, 573, 113, 27" CvType="InputBox" DesignTimeRectangle="656, 574, 110, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl id='ptcellphone' type='text' tag='INPUT' class='form-control clearable w110 ng-pristine ng-untouched ng-valid allowsmartnote_original ng-not-empty' aaname='' /&gt;" Guid="c37d831d-779b-44d7-84ef-026e869e1d2a" InformativeScreenshot="ade365c9b4cd602a508060ca30a71107.png" IsResponsive="True" Reference="oj8TssCIikaq5KGQBxCNHQ/JSiMB1BXI0axGyQVJ6_VZw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1981,8 +2014,7 @@
                               </uix:TargetAnchorable>
                             </uix:NGetText.Target>
                           </uix:NGetText>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="542,118" sap2010:WorkflowViewState.IdRef="MessageBox_19" Text="[patientCellPhoneTypi]" />
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_80" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="542,227" sap2010:WorkflowViewState.IdRef="NClick_80" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8c46c5a-d403-4c19-9af0-a100bc5c6e1a" Version="V4">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" ContentHash="W11QpofyDkW1Ek1IsYbmhg" CvElementArea="1512, 922, 63, 27" CvTextArea="1523, 929, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1513, 924, 60, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='patient-demographicsBtn57' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs hk-target hk-decorated' aaname='ALT + C' check:innerText='Cancel' /&gt;" Guid="7028774b-31da-4884-9d99-6030bc096a54" InformativeScreenshot="7fa0365ec9aa8faec21a5ca7336468f0.png" Reference="oj8TssCIikaq5KGQBxCNHQ/9CwMHyYSmEq3W__rLnlVLA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -2061,7 +2093,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachRow>
-            <ui:WriteCsvFile AddHeaders="True" DataTable="[dtClaims]" Delimitator="Semicolon" DisplayName="Write CSV" FilePath="C:\Users\carog\Documents\resultado_south.csv" sap:VirtualizedContainerService.HintSize="954,181" sap2010:WorkflowViewState.IdRef="WriteCsvFile_3" ShouldQuote="True" />
+            <ui:WriteCsvFile AddHeaders="True" DataTable="[dtClaims]" Delimitator="Semicolon" DisplayName="Write CSV" FilePath="C:\Users\carog\Documents\resultado_south.csv" sap:VirtualizedContainerService.HintSize="1024,181" sap2010:WorkflowViewState.IdRef="WriteCsvFile_3" ShouldQuote="True" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

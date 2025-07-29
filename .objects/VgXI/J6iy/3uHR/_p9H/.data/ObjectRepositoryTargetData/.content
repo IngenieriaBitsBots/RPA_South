@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8Na6PDMdHUO4RqELN5Se2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="41118567-c832-4dc6-8ccb-e3c77034e4a1" CvElementArea="801, 525, 412, 26" CvType="InputBox" DesignTimeRectangle="804, 526, 407, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimserviceDate' tag='INPUT' type='text' class='form-control only-date-time ng-valid hasDatepicker allowsmartnote_original ng-empty ng-dirty ng-valid-parse ng-touched' aaname='' /&gt;" Guid="ffeadd95-958a-4225-8b0f-cfdc80db350f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41118567-c832-4dc6-8ccb-e3c77034e4a1" CvTextArea="698, 528, 70, 11" CvTextArgument="Service Date" CvType="Text" DesignTimeRectangle="700, 526, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Service Date' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' check:innerText='Service Date' /&gt;" Guid="014c0b13-1b2d-4bd4-87b7-3cb7e5be1d20" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5a70a967d5b7bd9071cbfb187c717bdf.png" xmlns="">0dhwGj1-IN0ef3F6DHLTCRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
