@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jRIDPSq5tUO5kqx9KOaSkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="189e61a2-0f01-4393-897a-50e070423356" CvElementArea="1241, 391, 184, 23" CvType="InputBox" DesignTimeRectangle="1241, 392, 182, 21" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl id='claimStatusSel1753676320313' type='' tag='SELECT' class='form-control input-sm ng-pristine ng-untouched ng-valid ng-not-empty' aaname='' /&gt;" Guid="76c6d304-3b62-4747-b2da-5cf889ae884f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="189e61a2-0f01-4393-897a-50e070423356" CvTextArea="1166, 398, 68, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="1131, 396, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' check:innerText='Claim Status' /&gt;" Guid="b364f3d7-65f3-4f48-8dfd-a3d84be347e3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="baddbb0ae895af82bf966e3825a32f45.png" xmlns="">09_JabvZ220ybFgfVcFMk2g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Proton VPN",
+  "Type": "App",
+  "Id": "LETXISTDq0KmWJsWjEjjMA",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/LETXISTDq0KmWJsWjEjjMA",
+  "Created": "2025-05-11T01:27:37.771912Z",
+  "Updated": "2025-05-11T01:27:37.771912Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

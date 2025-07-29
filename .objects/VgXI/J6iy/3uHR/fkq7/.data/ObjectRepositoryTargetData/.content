@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3X4rN3WR1ki1nX8aHUlZ2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="11bb9bfd-b2f1-4ae2-b9e6-e170d0fc3b29" CvTextArea="602, 374, 182, 15" CvTextArgument="Essential (primary) hypertension" CvType="Text" DesignTimeRectangle="603, 372, 520, 17" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl aaname='Essential (primary) hypertension' class='ng-binding' type='' tag='SPAN' check:innerText='Essential (primary) hypertension' /&gt;" Guid="8b445ff0-15f8-45a6-a2b6-83d596269727" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3be66c5f544e7eba7169273d4774defc.png" xmlns="">0RoYR1v-fo0K9eWyTGs7i_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lQvxVryFn0SnEXkiApcNIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" CVScreenId="c31078bd-8f6d-4425-ad88-151f47006eed" CvElementArea="60, 689, 322, 44" CvTextArea="203, 704, 38, 15" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="62, 690, 320, 42" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='Login' tag='INPUT' type='submit' class='btn btn-emr btn-sm agentButton' aaname='Log In' check:text='Log In' /&gt;" Guid="d6538e46-dd76-4862-9b4a-01c9d5ba2f71" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0215275add6979d0a35e1ae2fdb345cf.png" xmlns="">01QW9ur72qket_OelIi56Dg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

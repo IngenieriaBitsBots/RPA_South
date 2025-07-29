@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vby-5X2ds0OYOffqbl2MUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="cff7a8b1-a2ef-4cf2-adcc-8645c74d7c7d" CvElementArea="592, 203, 34, 26" CvTextArea="603, 209, 11, 13" CvTextArgument="..." CvType="Button" DesignTimeRectangle="594, 205, 31, 24" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl class='input-group-btn' type='' tag='DIV' aaname='                                                                                                                                              ' check:innerText='...' /&gt;" Guid="34b7aef4-102d-4a59-aecf-961e3bb598a4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="146473a34cd42ca4ed3ffcc9b7c09332.png" xmlns="">0DLXQLpnbFUW4EreWS-IXHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

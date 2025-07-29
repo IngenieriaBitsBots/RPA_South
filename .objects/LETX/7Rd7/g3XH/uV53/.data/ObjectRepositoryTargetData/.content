@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Zs9qMMZOC0WwfRp42K4q1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 600, 600" DesignTimeScaleFactor="1" Guid="91ba512b-fccf-4ddb-b5e1-05741d345b7f" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:Literal x:TypeArguments="x:String" Value="" />
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="a4730b35b7a9f1a53abae5e54260d524.png" xmlns="">0NK8VpbnM-0a1PfneGXvxzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-F1QS_yUr0Se9cRBg5prsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="26c41a01-125d-4477-a1e4-209ce904bc5d" CvTextArea="502, 374, 18, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="502, 366, 100, 30" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl type='' class='ng-binding ng-scope' tag='TD' aaname='' check:innerText='I10' /&gt;" Guid="dee48552-d463-4ef3-97a3-d845ff23f8ee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a90bb8133a72325a3f83098f8d698618.png" xmlns="">0OxPcjayCA0u3JGjXwfl2VA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

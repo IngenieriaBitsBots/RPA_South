@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cell Phone",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JSiMB1BXI0axGyQVJ6_VZw",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/JSiMB1BXI0axGyQVJ6_VZw",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-07-29T05:56:05.1313664Z",
+  "Updated": "2025-07-29T05:56:05.1313664Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "serviceDate&Sequence_1",
+        "codigo3&Sequence_1",
+        "codigo2&Sequence_1",
+        "codigo1&Sequence_1",
+        "time&Sequence_1",
+        "diagnosis&Sequence_1",
+        "facility&Sequence_1",
+        "claimStatus&Sequence_1",
+        "resurceName&Sequence_1",
+        "providerName&Sequence_1",
+        "patientName&Sequence_1",
+        "noTrainingDate&Sequence_1",
+        "birthdate&Sequence_1",
+        "trainingDate&Sequence_1",
+        "rawDate&Sequence_1",
+        "hasInvalidDate&Sequence_1",
+        "tempDate&Sequence_1",
+        "dateColumns&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

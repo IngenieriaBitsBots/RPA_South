@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="42B4E2PSuU6cIa_yRgwsjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" CVScreenId="fcedbbdc-c1ee-4424-9354-5177778b0642" CvTextArea="125, 375, 187, 12" CvTextArgument="VERIFY YOUR SECURITY IMAGE í" CvType="Text" DesignTimeRectangle="62, 373, 320, 16" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='ent_txt' aaname='Verify your security image  ' check:innerText='VERIFY YOUR SECURITY IMAGE' /&gt;" Guid="76c4ef68-d35c-4e0b-9895-dd1d5037811d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f28e1ac73024cbf793b707ddd6ee1b1e.png" xmlns="">0n21tBH8_jE-j2SZo76De6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C8eGJjo85UacXNxw5cG_Nw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5c803225-8b91-4874-b0a5-8278ced8a222" CvElementArea="1384, 879, 62, 25" CvTextArea="1396, 885, 38, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1386, 881, 59, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='billingClaimBtn36' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs pull-right mr10' aaname='Cancel' check:innerText='Cancel' /&gt;" Guid="1dfa54ec-a2fa-4f1c-bc9a-61feec3fb1e3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9186675316eb0ea405be4f01bf4e3489.png" xmlns="">0k20MkATsrEuJEX0W2j2O1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

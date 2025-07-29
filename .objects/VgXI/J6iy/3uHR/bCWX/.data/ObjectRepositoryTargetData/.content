@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FzQkvJ9iu0Ous6z70Z4SHQ" Reference="oj8TssCIikaq5KGQBxCNHQ/bCWXVuBkh0SKP1ZnNV096g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753676320313' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753676320313 closable1753676320313 ng-pristine ng-valid ng-empty allowsmartnote_original ng-touched idt-alert-subject' aaname='' /&gt;" Guid="b27c1142-1f20-4cf4-b021-220fac108060" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="70222bc3c21f9c8d5e7c06ccc479d68d.png" xmlns="">08sPQQaUiXkCblYh1fUvY6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1_GCnyii2Em4zmpXurK-DA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d559e269-d209-45aa-925a-f41c3735ebe7" CvElementArea="718, 458, 16, 16" CvType="CheckBox" DesignTimeRectangle="720, 460, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='group_msg1' tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='ng-pristine ng-untouched ng-valid ng-empty' aaname='' /&gt;" Guid="3a35824d-dcb7-46ff-9e2c-bec4506e9c66" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d559e269-d209-45aa-925a-f41c3735ebe7" CvTextArea="761, 459, 90, 14" CvTextArgument="RUIZ, ANDRES F" CvType="Text" DesignTimeRectangle="757, 457, 93, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='group_msg1' tag='TABLE' /&gt;&lt;webctrl class='ng-binding' type='' tag='SPAN' aaname='RUIZ, ANDRES F' check:innerText='RUIZ, ANDRES F' /&gt;" Guid="d1b12fe0-9e4c-4bd3-92b8-e28cfead314c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="11049275fd4ffbec5a0571f0052601ce.png" xmlns="">0tiZXnYVy4kuMrNjnqMXTCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7THnl1ASsUGXIQqAr2-D5w" Reference="oj8TssCIikaq5KGQBxCNHQ/O0s6ZDBzikGe1ppBEFpMLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="f5d5bcae-34ee-48db-9cc9-fa9295f1f224" CvElementArea="805, 494, 216, 26" CvType="InputBox" DesignTimeRectangle="988, 495, 32, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='facility-lookupBtn2-1964' tag='BUTTON' type='button' class='btn btn-default border-left-0 border ng-class:{&amp;apos;true&amp;apos;: &amp;apos;rightBorderRadius disableDropdown&amp;apos;,&amp;apos;false&amp;apos;:&amp;apos;lookupinput&amp;apos;,undefined:&amp;apos;lookupinput&amp;apos;}[disablefacilitylookup] lookupinput' aaname='' /&gt;" Guid="6a1cdeb9-20fd-41ee-a3dd-647900ff70fe" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f5d5bcae-34ee-48db-9cc9-fa9295f1f224" CvTextArea="829, 500, 107, 12" CvTextArgument="CFM RPM PATIENT" CvType="Text" DesignTimeRectangle="804, 495, 184, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='facility-lookupIpt1-1964' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookupinput zindexAuto createClaimFacilityCls allowsmartnote_original ng-dirty ng-touched ng-valid-parse ng-not-empty x' aaname='CFM RPM PATIENT' /&gt;" Guid="f526ed32-e17b-4332-a0f5-5a8f08a97cce" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6e081c7575c502952c4bf5a1ab133868.png" xmlns="">0RX9rwKxlZk26VlzT0PgM3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

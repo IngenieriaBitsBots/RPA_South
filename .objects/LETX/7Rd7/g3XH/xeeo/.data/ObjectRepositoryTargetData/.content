@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hkLrO3MnL064Osy6Z2sXEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="28ec050a-a7a2-4cde-826f-41388804cdb6" CvElementArea="31, 201, 274, 44" CvTextArea="108, 214, 121, 20" CvTextArgument="Conexión rápida" CvType="Button" DesignTimeRectangle="33, 203, 270, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='SidebarQuickConnectButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='SidebarQuickConnectButton' role='push button' check:text='Conexión rápida' /&gt;" Guid="ece12dae-4f3a-40da-9bf5-87319aaa4538" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="28ec050a-a7a2-4cde-826f-41388804cdb6" CvElementArea="31, 201, 274, 44" CvTextArea="108, 214, 121, 20" CvTextArgument="Conexión rápida" CvType="Button" DesignTimeRectangle="109, 212, 119, 21" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='SidebarQuickConnectButton' /&gt;&lt;ctrl name='Conexión rápida' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='SidebarQuickConnectButton' /&gt;&lt;ctrl name='Conexión rápida' role='text' automationid='' check:text='Conexión rápida' /&gt;" Guid="a85c7f41-065a-4c96-8c0a-50029f1b02e1" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="92e3af5f87dea10402d51a7dd221326c.png" xmlns="">07ppWMP-29kyx653FAMynaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

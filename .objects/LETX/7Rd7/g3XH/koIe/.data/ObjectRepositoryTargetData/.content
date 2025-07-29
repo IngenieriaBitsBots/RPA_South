@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dfk0U1PNCEaZJuPdE5FgAA" Reference="oj8TssCIikaq5KGQBxCNHQ/koIedsiPL0CTsbYct8PX0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="536, 329, 34, 55" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl idx='115' name='ProtonVPN.Map.ViewModels.Pins.PinViewModel' role='list item' /&gt;&lt;ctrl automationid='US' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ProtonVPN.Map.ViewModels.Pins.PinViewModel' role='list item' /&gt;&lt;ctrl automationid='US' role='client' /&gt;" Guid="9f7b40a3-64c8-4eed-b5ef-8a5f9a5e2762" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fba8fc692e29e1afe6dd2bb67cbf9621.png" xmlns="">0jjtAnnL11k-VTpAPx9LT7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

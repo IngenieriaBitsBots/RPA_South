@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kMNAsG8dxE29HysQojTIkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="94bb6640-62e9-45f3-94ec-581479adac10" CvElementArea="265, 297, 402, 26" CvType="InputBox" DesignTimeRectangle="266, 298, 400, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='claimStatusCodeId' type='' tag='SELECT' class='form-control input-sm ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched' aaname='' /&gt;" Guid="9a530651-85c2-497e-9b56-9850a2e3e894" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="94bb6640-62e9-45f3-94ec-581479adac10" CvTextArea="180, 306, 68, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="182, 304, 66, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='toggledropdown ng-binding' aaname='Claim Status' check:innerText='Claim Status' /&gt;" Guid="623ceff1-9c57-4f19-af7f-af31ec302ed7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0caf3592446da41c8343b764bdbf21e9.png" xmlns="">0S-ys4Bq3S0iD0Q1PVjBEVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cfbinmZ6V0CisvNkC7x7yQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="772567a9-d287-48fb-a76c-68177ca6118d" CvElementArea="615, 304, 300, 27" CvType="InputBox" DesignTimeRectangle="616, 305, 300, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtICDDescrDx' tag='INPUT' type='text' class='form-control patient-input clearable ng-pristine ng-valid ng-touched ng-empty idt-alert-subject' placeholder='Type Code Or Description To Search' aaname='' /&gt;" Guid="801e7014-a0de-4cfb-9478-1d70afee9d1a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3a45d600ad5fc91cdf7eb2ada13282bb.png" xmlns="">0auGp3HKTKEG77BSWem5Myw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

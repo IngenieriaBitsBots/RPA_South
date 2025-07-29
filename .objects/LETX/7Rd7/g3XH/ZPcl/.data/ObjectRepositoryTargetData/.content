@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pYJj_i33Bka2jumaoKMltQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8ed2d73f-3f58-4249-94eb-2fbcb391adbf" CvElementArea="531, 8, 22, 21" CvType="CloseButton" DesignTimeRectangle="518, 1, 48, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='ModalCloseButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ModalCloseButton' role='push button' /&gt;" Guid="bd64d425-9cb1-49d6-95e6-05df9bde29c6" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title=' ' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3633c0ac8027560558f5991f30962daa.png" xmlns="">0BLw-AdUqK0WSjNk97z08RQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

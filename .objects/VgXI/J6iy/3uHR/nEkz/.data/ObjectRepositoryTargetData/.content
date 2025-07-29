@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ooE4ZMy1A06f1mtG8MSCXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="c80090d1-5385-4fb1-b4fc-bedcb8c3c59c" CvTextArea="778, 457, 99, 12" CvTextArgument="Search Providers" CvType="Text" DesignTimeRectangle="777, 452, 443, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='group_msg' tag='TABLE' /&gt;&lt;webctrl id='accountSelectProviderIpt3' type='text' tag='INPUT' class='form-control input-sm clearable noborder ng-pristine ng-valid ng-empty allowsmartnote_original ng-touched idt-alert-subject' placeholder='Search Providers' aaname='' /&gt;" Guid="4e02c30f-bfbc-4c7c-a455-332f1d72dcdb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bbc860429317b82202cefedbd70fab4e.png" xmlns="">00aCg6fIs0EmLdmiR_gRaIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

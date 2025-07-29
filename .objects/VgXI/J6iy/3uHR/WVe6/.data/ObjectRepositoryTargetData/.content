@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ke9j-E2aCk2YDP5pR6bVTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="newtab" CVScreenId="414c8b1e-39c5-46ab-9234-af4d35d815b3" CvElementArea="555, 164, 807, 51" CvType="InputBox" DesignTimeRectangle="610, 168, 711, 44" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Nueva pestaña' role='document' /&gt;&lt;ctrl name='Escribe el término de búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nueva pestaña' role='document' /&gt;&lt;ctrl name='Escribe el término de búsqueda' role='editable text' automationid='' /&gt;" Guid="aafe6aa6-bea0-4ac5-bece-7f55dcf19e4c" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Nueva pestaña - Trabajo: Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="10ed52d7cbebb8db581b4dcfc085c24a.png" xmlns="">0BKxvwweuCkSiGIDMAMThKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FSfHeKkN_EeTw7TeFxXfAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvElementArea="1827, 353, 83, 33" CvType="Button" DesignTimeRectangle="1829, 355, 80, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl1' tag='TABLE' /&gt;&lt;webctrl id='btnclaimlookup' type='' tag='BUTTON' class='btn btn-lblue btn-sm spacer20' aaname=' Lookup' check:innerText='Lookup' /&gt;" Guid="f38dde87-d394-41b9-bff8-e9f78fac81c1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="757001cb7d7e32596976ac2d0a2cbc4c.png" xmlns="">0IUjNvW-cLkuiT7KzHoqIdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

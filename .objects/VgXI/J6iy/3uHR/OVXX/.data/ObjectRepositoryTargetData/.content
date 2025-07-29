@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uJc7dtZKvEmP77B-c-KQIg" Reference="oj8TssCIikaq5KGQBxCNHQ/OVXXR7cHpUWM0xYOCWGDKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="60d37147-f52d-4724-af8d-9792f0323b83" CvElementArea="803, 554, 242, 26" CvType="InputBox" DesignTimeRectangle="804, 555, 240, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ptLookup' name='patient_name_0833' tag='INPUT' type='text' class='no-cursory-check form-control input-height patient-input clearable pt-lookup-class patientFilterForClaim ng-empty allowsmartnote_original ng-touched idt-alert-subject' placeholder='Search by Name' aaname='' /&gt;" Guid="b722b2a7-a5a5-454f-87bb-ffbf90c46c20" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7036b78549645b47464a93d930bf80c0.png" xmlns="">0TkSumk64bUyFov5Xndu6oQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

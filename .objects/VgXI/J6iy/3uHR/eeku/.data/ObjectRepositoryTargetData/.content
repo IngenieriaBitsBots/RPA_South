@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vgd0cTIbyUqDuUzM0D5qnA" Reference="oj8TssCIikaq5KGQBxCNHQ/eekuS9ICMUacumH9Rh_lTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="26c41a01-125d-4477-a1e4-209ce904bc5d" CvTextArea="502, 374, 18, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="503, 372, 17, 17" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='ng-binding' aaname='I10' check:innerText='I10' /&gt;" Guid="ff86d3f0-82c4-4b28-9dfe-d336a83d0fed" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="26c41a01-125d-4477-a1e4-209ce904bc5d" CvTextArea="602, 374, 182, 15" CvTextArgument="Essential (primary) hypertension" CvType="Text" DesignTimeRectangle="603, 372, 520, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl aaname='Essential (primary) hypertension' class='ng-binding' type='' tag='SPAN' check:innerText='Essential (primary) hypertension' /&gt;" Guid="53802c39-a1d3-4f12-85a2-de7b57def216" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="796370b8fa901f9b890cb00c9eb52716.png" xmlns="">0fhnyc7-AJEKSQlGJhNDLnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

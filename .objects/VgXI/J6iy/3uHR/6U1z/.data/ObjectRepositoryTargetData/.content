@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2KDbE3JYg0aVRXu5fF1png" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="c6d6a870-8b16-4019-abcf-b2026f3f51b0" CvElementArea="792, 269, 218, 26" CvType="InputBox" DesignTimeRectangle="794, 270, 184, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl3' tag='TABLE' /&gt;&lt;webctrl id='facility-lookupIpt1-5546' type='text' tag='INPUT' class='no-cursory-check form-control patient-input clearable lookupinput zindexAuto claimfacilitycls ng-empty allowsmartnote_original ng-touched idt-alert-subject' aaname='' /&gt;" Guid="a5289a15-56d5-49e7-8855-df0b487ad3a8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6d6a870-8b16-4019-abcf-b2026f3f51b0" CvTextArea="738, 281, 38, 14" CvTextArgument="Facility" CvType="Text" DesignTimeRectangle="739, 279, 37, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl3' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='toggledropdown ng-binding' aaname='Facility' check:innerText='Facility' /&gt;" Guid="cf92145e-4479-4143-8b69-f17bd6bff1bc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d073dfa5d635569ea4cde705c2741c89.png" xmlns="">0eYGGrt4JjUGdKLXwA-wlGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

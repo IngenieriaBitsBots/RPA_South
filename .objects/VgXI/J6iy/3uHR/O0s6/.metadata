@@ -1,0 +1,14 @@
+﻿{
+  "Name": "BUTTON facility-lookupB…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "O0s6ZDBzikGe1ppBEFpMLA",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/O0s6ZDBzikGe1ppBEFpMLA",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-07-28T04:45:57.922419Z",
+  "Updated": "2025-07-28T04:45:57.922419Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PNUFDTEW_U6KmCRHSgfTcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="ceb4d519-9f24-4c76-87f3-db937ddb470b" CvElementArea="803, 464, 432, 26" CvType="InputBox" DesignTimeRectangle="804, 465, 401, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='resource-lookupIpt1' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookup-box autocomplete-off-manual ng-pristine ng-untouched ng-valid ng-not-empty allowsmartnote_original' placeholder='Enter Resource' aaname='' /&gt;" Guid="de9358ce-a707-4225-b20b-8a136ea7dbbd" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ceb4d519-9f24-4c76-87f3-db937ddb470b" CvTextArea="699, 467, 51, 11" CvTextArgument="Resource" CvType="Text" DesignTimeRectangle="700, 465, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Resource' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' check:innerText='Resource' /&gt;" Guid="f3d75f1e-77a3-4cce-a923-f59e2ee29601" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cb74b749acf36a2df9d209e4ff6b7742.png" xmlns="">006jPC85nUE2x6fI2rfN3IA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

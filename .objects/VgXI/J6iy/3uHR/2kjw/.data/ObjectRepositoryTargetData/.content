@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qPZ9Gjp46km6hKFfcc45tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="df7b32fe-db21-42c6-a5b1-6801e795957e" CvTextArea="103, 454, 92, 11" CvTextArgument="Create New Claim" CvType="Text" DesignTimeRectangle="84, 449, 131, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupBtn11' tag='BUTTON' type='' class='' aaname='Create New Claim' check:innerText='Create New Claim' /&gt;" Guid="e280223e-c80f-4849-b71f-aecfa4deb1c2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f66881580b5a2931840c79231c271b9f.png" xmlns="">0NYyLUY-FDE-GjEmbTlwlrQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kWyyy5qpRU-UAGQibON8aA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="84bbbb8f-547d-406e-8bd5-b6dd0c6e8256" CvElementArea="31, 197, 274, 42" CvTextArea="92, 210, 151, 15" CvTextArgument="Cambiar de servidor" CvType="Button" DesignTimeRectangle="32, 198, 272, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='Button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='Button' role='push button' /&gt;" Guid="d1c57abc-6dcc-475d-b5f5-3e3d1052352c" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc75b4f9361be12782ce90e817b41922.png" xmlns="">0AdjmCWRw_0Ga7pqMGiUjug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

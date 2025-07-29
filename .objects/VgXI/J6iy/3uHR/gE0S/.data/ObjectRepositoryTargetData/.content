@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YIxwpZfoY0S4Z5Siw2VoGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvElementArea="265, 237, 164, 26" CvType="InputBox" DesignTimeRectangle="266, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='fromdate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="95e4c8be-8a18-43ed-ba4e-cf9a28bb5771" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="181, 246, 67, 13" CvTextArgument="Service Dt(s)" CvType="Text" DesignTimeRectangle="183, 244, 65, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='toggledropdown ng-binding' aaname='Service Dt(s)' check:innerText='Service Dt(s)' /&gt;" Guid="f9396724-0bda-423c-bd7e-1bbb21f1d50d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ca3c55c249a946e844acdfd14b09bce.png" xmlns="">0qNr9mhgCIk2-Kf69tLugtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

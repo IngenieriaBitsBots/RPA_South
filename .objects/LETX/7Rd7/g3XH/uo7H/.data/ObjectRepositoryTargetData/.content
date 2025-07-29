@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lKu4GXN8XU694Pgi_zHUjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="89c55496-ce88-467a-ba32-1a5d731873d2" CvElementArea="96, 218, 404, 32" CvType="InputBox" DesignTimeRectangle="100, 216, 400, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='LoginInput' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='LoginInput' role='editable text' /&gt;" Guid="ecd9bd7f-f44f-4940-9642-674286c704ff" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="302cab446095f8eafdde20e31c280b06.png" xmlns="">0MYUOSX3Mkkqm9KnqKVlAGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

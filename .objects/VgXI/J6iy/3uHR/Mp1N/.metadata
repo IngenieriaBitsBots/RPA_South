@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter username to conti…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Mp1NEeXC-kSsB5WEtekaKA",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/Mp1NEeXC-kSsB5WEtekaKA",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-05-11T03:18:05.7466768Z",
+  "Updated": "2025-05-11T03:18:05.7466768Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

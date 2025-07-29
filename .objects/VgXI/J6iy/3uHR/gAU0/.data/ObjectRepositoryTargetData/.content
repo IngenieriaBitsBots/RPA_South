@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hCOLJHannEy48kCOpGAx1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" CVScreenId="115670cd-5394-4c25-886e-dc3adc2bd777" CvElementArea="75, 655, 403, 53" CvTextArea="257, 674, 37, 16" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="77, 656, 400, 52" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' type='submit' class='btn btn-emr btn-sm agentButton' aaname='Next' check:text='Next' /&gt;" Guid="e1bac177-a3c9-492f-8266-e233e41ff0fd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6521a052fbda893ee64b6c0c62d49695.png" xmlns="">0gzwe8BuotUGiPOpLA1kRdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

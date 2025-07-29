@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P8SiIGU48ECUmNBkvPvsRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="164fecff-2db2-49b9-98ad-b5ac61a460e0" CvTextArea="24, 57, 215, 16" CvType="AnyWordGroup" DesignTimeRectangle="30, 54, 209, 21" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='EntryCountryAndServer' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='EntryCountryAndServer' role='text' /&gt;" Guid="8b6aba14-ed69-4215-988d-805b3a7f74e1" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="df172d5a72084a398169eb8bc2f4d312.png" xmlns="">05UepraKpt0eOSwDm4J0J6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

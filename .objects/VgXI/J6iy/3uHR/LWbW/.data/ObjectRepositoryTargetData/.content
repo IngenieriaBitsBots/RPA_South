@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cWNk4p-d40u_pQjELxbfmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="db0c4338-9d9b-4e82-9405-857c5133840c" CvTextArea="959, 593, 35, 12" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="952, 588, 158, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' id='patient-lookupLink3' tag='A' class='cursor' aaname='Name' check:innerText='Name' /&gt;" Guid="c4294afa-6238-4261-ae7b-38e29b0af58a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="75acd5aa705f5921279e12aea1f23cc0.png" xmlns="">0D_cjzZBY_EGXx0VPbZ3FNw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

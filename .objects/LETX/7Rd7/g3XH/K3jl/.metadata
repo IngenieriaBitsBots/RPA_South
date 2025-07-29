@@ -1,0 +1,14 @@
+﻿{
+  "Name": "editable text LoginPass…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "K3jlMDjRE0Wwh6QnfJ635Q",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/K3jlMDjRE0Wwh6QnfJ635Q",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/g3XHn-gO4kOqK9t_z0NeAQ",
+  "Created": "2025-05-11T02:33:44.490335Z",
+  "Updated": "2025-05-11T02:33:44.490335Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

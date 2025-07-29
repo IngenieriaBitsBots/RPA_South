@@ -1,0 +1,13 @@
+﻿{
+  "Name": "eClinicalWorks Verify y…",
+  "Type": "Element",
+  "Id": "gPI_JHcFW0KJ3ERbysBHWg",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/gPI_JHcFW0KJ3ERbysBHWg",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-07-25T03:09:46.3982211Z",
+  "Updated": "2025-07-25T03:09:46.3982211Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

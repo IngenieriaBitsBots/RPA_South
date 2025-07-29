@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GQg8SlP-ZESHGQ9xP4XmTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8cba9053-d5ec-4898-b1d2-1f231acf929e" CvElementArea="227, 422, 146, 44" CvTextArea="252, 436, 95, 15" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="229, 424, 142, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='LoginButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='LoginButton' role='push button' check:text='Iniciar sesión' /&gt;" Guid="8c5d7cfd-a4a7-4cef-b9c0-bc76f1188048" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8cba9053-d5ec-4898-b1d2-1f231acf929e" CvElementArea="227, 422, 146, 44" CvTextArea="252, 436, 95, 15" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="253, 433, 94, 21" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='LoginButton' /&gt;&lt;ctrl name='Iniciar sesión' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='LoginButton' /&gt;&lt;ctrl name='Iniciar sesión' role='text' automationid='' check:text='Iniciar sesión' /&gt;" Guid="4b6c0bcf-455c-4787-a574-89b90651e1f1" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9776fb683278cc81a9a91f07dc97d6e.png" xmlns="">0iVWp_CMVuEeDaKTHnsj00w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

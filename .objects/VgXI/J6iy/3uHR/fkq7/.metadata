@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Essential (primary) hyp…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fkq7KiZvDEu0J7ifx3yEEQ",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/fkq7KiZvDEu0J7ifx3yEEQ",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-07-28T04:23:22.3675125Z",
+  "Updated": "2025-07-28T04:23:22.3675125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oG1j9m_B30WsIDsClFt_Pg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="cff7a8b1-a2ef-4cf2-adcc-8645c74d7c7d" CvElementArea="161, 211, 17, 17" CvType="CheckBox" DesignTimeRectangle="164, 213, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='claimLookupIpt2' type='checkbox' tag='INPUT' class='ng-pristine ng-untouched ng-valid ng-not-empty' aaname='' /&gt;" Guid="8fb856c2-8216-4159-a279-acc77f81a4aa" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cff7a8b1-a2ef-4cf2-adcc-8645c74d7c7d" CvElementArea="161, 211, 17, 17" CvTextArea="183, 213, 14, 11" CvTextArgument="All" CvType="CheckBox" DesignTimeRectangle="164, 213, 33, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl class='checkbox-inline' type='' tag='LABEL' aaname='                                                                              All                                                                         ' check:innerText='All' /&gt;" Guid="267509d9-af86-43dd-82c2-6dd8938e769d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cdc17570262e6950129845231a958959.png" xmlns="">0l-0MR2fboEyMC2CPGu7gCw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k2dLExUjXU-xRrk238a_sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="bc3e18b4-4879-4b1a-bd57-b7c22d8154d1" CvElementArea="655, 573, 113, 27" CvType="InputBox" DesignTimeRectangle="656, 574, 110, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl id='ptcellphone' type='text' tag='INPUT' class='form-control clearable w110 ng-pristine ng-untouched ng-valid allowsmartnote_original ng-not-empty' aaname='' /&gt;" Guid="c37d831d-779b-44d7-84ef-026e869e1d2a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bc3e18b4-4879-4b1a-bd57-b7c22d8154d1" CvTextArea="583, 579, 58, 11" CvTextArgument="Cell Phone" CvType="Text" DesignTimeRectangle="585, 577, 56, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='ng-binding' aaname='Cell Phone' check:innerText='Cell Phone' /&gt;" Guid="aa1d4092-2c8f-4c8d-a7e7-0911fd9f3830" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ade365c9b4cd602a508060ca30a71107.png" xmlns="">0DsfFLSblh0eVNvvyzt3PFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

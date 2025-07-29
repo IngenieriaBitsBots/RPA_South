@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UBrAdvpOUkqUsEcFAdizHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="527, 656, 50, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1753770983193 closable1753770983193 ng-pristine ng-untouched ng-valid ng-empty allowsmartnote_original' aaname='' /&gt;" Guid="829686f8-46f2-49ec-b520-5641a5f83d76" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f5893ad2-0506-4b90-845a-130a794bf2ac" CvTextArea="484, 660, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="474, 656, 30, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1753770983193' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='text-center' aaname='*' check:innerText='*' /&gt;" Guid="96567ae2-ff16-4b33-83da-780d96a2cae8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a47e8c9023b5269a3880e34c4de11ad7.png" xmlns="">0-Os2vT7DhkWI5F3pvEYkTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

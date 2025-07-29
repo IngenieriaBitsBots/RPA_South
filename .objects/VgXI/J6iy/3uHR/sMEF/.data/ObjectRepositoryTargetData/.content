@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MHkMcKE8s0i9dHF1aG7Iow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="1222, 510, 20, 20" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='BUTTON' type='button' class='close' aaname='' /&gt;" Guid="ba61733e-106d-4299-a086-ceb080f535e1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4df9ec232c41527d592e2892947dc88f.png" xmlns="">0Fy3tG0rT6kW6-yscaQ17Nw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

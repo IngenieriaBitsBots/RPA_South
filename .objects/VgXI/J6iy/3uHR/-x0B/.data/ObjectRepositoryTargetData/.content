@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="c5sBeGwAY0WOptIeE28R6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="de2b3c90-1616-4d03-9c61-d479aff12ffd" CvElementArea="11, 125, 63, 43" CvType="Button" DesignTimeRectangle="12, 127, 61, 40" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='jellybean-panelLink4' tag='A' type='' class='navgator mainMenu' aaname='' /&gt;" Guid="9a4abc1c-150e-4f53-ae50-ef67499f6cb2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="615b4ec059f01ade14e9a170b572693f.png" xmlns="">0348LMdRPfE6x8Gj6adzOSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

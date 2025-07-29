@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Conexión rápida",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "xeeoR3uxEEqVT3ZEoPgMoA",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/xeeoR3uxEEqVT3ZEoPgMoA",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/g3XHn-gO4kOqK9t_z0NeAQ",
+  "Created": "2025-05-11T02:50:42.1249137Z",
+  "Updated": "2025-05-11T02:50:42.1249137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

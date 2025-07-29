@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GDu0MhudgkCIKRr_xS8j4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="11bd0f94-4e8f-4fdd-bf0e-3f6e36826133" CvTextArea="790, 46, 161, 19" CvTextArgument="DESCONECTADO" CvType="Text" DesignTimeRectangle="792, 40, 158, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='ConnectionState' /&gt;&lt;ctrl name='DESCONECTADO' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ConnectionState' /&gt;&lt;ctrl name='DESCONECTADO' role='text' automationid='' check:text='DESCONECTADO' /&gt;" Guid="3eabafbf-b5f5-4402-90a6-f1c441d07619" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2421115514a30f779c7bbbc0005dd247.png" xmlns="">0I5n-0a9UiUSxrN-S1xPUDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

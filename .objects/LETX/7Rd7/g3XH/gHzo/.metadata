@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sistema Restaurar Mover…",
+  "Type": "Element",
+  "Id": "gHzo--HOakCwBmxVVPau7A",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/gHzo--HOakCwBmxVVPau7A",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/g3XHn-gO4kOqK9t_z0NeAQ",
+  "Created": "2025-05-12T13:34:32.3672254Z",
+  "Updated": "2025-05-12T13:34:32.3672254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

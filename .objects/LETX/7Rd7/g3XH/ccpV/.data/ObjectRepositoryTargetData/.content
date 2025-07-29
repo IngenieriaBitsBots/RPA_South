@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="46chircI3UKEiRFmb7wR3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="536, 329, 34, 55" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl idx='115' name='ProtonVPN.Map.ViewModels.Pins.PinViewModel' role='list item' /&gt;&lt;ctrl automationid='US' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ProtonVPN.Map.ViewModels.Pins.PinViewModel' role='list item' /&gt;&lt;ctrl automationid='US' role='client' /&gt;" Guid="129872ea-0863-4560-a8e4-47e503405a82" ScopeSelectorArgument="&lt;wnd app='protonvpn.exe' cls='HwndWrapper*' title='Proton VPN' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3b50d42e7737a08ce090c4e5fe0d99ec.png" xmlns="">0q5JAoZl96E-JeLPOtFHvhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

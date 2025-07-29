@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1meF7uwhmUijx13XuEP1vQ" Reference="oj8TssCIikaq5KGQBxCNHQ/7FRrtAlMWUWmcx2hFdS0RQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="fa359de2-e9e0-4e23-bbfd-ac4ae28fcd95" CvTextArea="804, 301, 106, 12" CvTextArgument="[providerName]" CvType="Text" DesignTimeRectangle="805, 301, 418, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl3' tag='TABLE' /&gt;&lt;webctrl type='' tag='H4' class='' aaname='{{facility}}' /&gt;" Guid="3ed7ef39-8e7f-40fd-878d-dce4779f8a24" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c297ed2684016b97737e82f7b299c499.png" xmlns="">0gYCp3QPdj0GtIQyk8nCWPw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="providerName" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

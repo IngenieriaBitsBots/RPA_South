@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DB-dvX0jxUG5iEpCMadhcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" DesignTimeRectangle="61, 588, 256, 40" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='passwordField' tag='INPUT' type='password' class='pwd-eye-glyph pull-left ui-keyboard-input ui-widget-content ui-corner-all' aaname='Enter Password to continue' /&gt;" Guid="3fde6ea2-6eb0-41fc-900a-81c978ddc8bf" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="08178eea-5120-4a46-a5fe-7a17c2e8c8ac" CvTextArea="146, 551, 152, 12" CvTextArgument="Enter Password to continue" CvType="Text" DesignTimeRectangle="147, 549, 150, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter  to continue' tag='LABEL' type='' class='' check:innerText='Enter Password to continue' /&gt;" Guid="d4b77a5b-8dd3-44d3-b11e-0d36bb52f9f0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a345d1e43f6d4f64ce55d197da48952.png" xmlns="">0_Tes-QCBk0idPtzBuXcYuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

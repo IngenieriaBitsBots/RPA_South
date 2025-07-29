@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hcsW39IBLUiamfYhuAylAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" CvElementArea="457, 573, 107, 27" CvType="InputBox" DesignTimeRectangle="459, 574, 103, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl id='pthomephone' type='text' tag='INPUT' class='form-control clearable ng-pristine ng-valid allowsmartnote_original hk-target hk-decorated ng-not-empty ng-touched idt-alert-subject' aaname='ALT + H' /&gt;" Guid="4e2bf50b-192f-4231-9464-6d2cd2edd5d6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" CvTextArea="374, 579, 70, 11" CvTextArgument="Home Phone" CvType="Text" DesignTimeRectangle="326, 579, 118, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='TabTable' tag='TABLE' /&gt;&lt;webctrl aaname='Home Phone' type='' tag='LABEL' class='col-sm-3 control-label mt5' check:innerText='Home Phone' /&gt;" Guid="296ff59e-1d99-4ef6-8e91-00805de59d47" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d658e810e8544b52149b53047ffd39e8.png" xmlns="">0sq5vomIx3UuPDa4HHdghCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

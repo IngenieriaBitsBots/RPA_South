@@ -1,0 +1,13 @@
+﻿{
+  "Name": "eClinicalWorks V12.0.2 …",
+  "Type": "Element",
+  "Id": "gAU0rqj_IkeVKv6pcgU_2Q",
+  "Reference": "oj8TssCIikaq5KGQBxCNHQ/gAU0rqj_IkeVKv6pcgU_2Q",
+  "ParentRef": "oj8TssCIikaq5KGQBxCNHQ/3uHReaoKIUuQOHI8RDnX7w",
+  "Created": "2025-07-25T03:08:45.4610826Z",
+  "Updated": "2025-07-25T03:08:45.4610826Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

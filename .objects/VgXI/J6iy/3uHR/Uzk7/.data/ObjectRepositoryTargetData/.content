@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TZFVjaMe0UWe-ChGw8l1xA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="524f1f05-7d1b-4381-aa83-e63be00f01eb" CvElementArea="1240, 391, 184, 23" CvType="InputBox" DesignTimeRectangle="1241, 392, 182, 21" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl id='claimStatusSel1753676320313' type='' tag='SELECT' class='form-control input-sm ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched' aaname='' /&gt;" Guid="fa92b841-80cf-4230-a5bd-eed789baff19" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="524f1f05-7d1b-4381-aa83-e63be00f01eb" CvTextArea="1166, 398, 68, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="1131, 396, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1753676320313' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' check:innerText='Claim Status' /&gt;" Guid="bd8d8680-49ea-49a7-a7f2-2e0253eb6418" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="356f96595ddb878afaa5fff5cb377c34.png" xmlns="">00EtCuiVcoUG7fs5az4LMZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

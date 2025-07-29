@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JCGQCxlnc0yl2jNHP0hztg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="38e9de72-4bc6-44cc-a8a4-095c09ff848c" CvElementArea="803, 494, 218, 26" CvType="InputBox" DesignTimeRectangle="804, 495, 184, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='facility-lookupIpt1-8949' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookupinput zindexAuto createClaimFacilityCls ng-empty allowsmartnote_original' aaname='' /&gt;" Guid="432ac73a-b8f9-4949-afdf-8ced1867ab59" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="38e9de72-4bc6-44cc-a8a4-095c09ff848c" CvTextArea="699, 497, 41, 14" CvTextArgument="Facility" CvType="Text" DesignTimeRectangle="700, 495, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Facility' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' check:innerText='Facility' /&gt;" Guid="d8d2dc84-b74f-49ef-a73f-bda350906fd8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9ff0686f16a414767ddd4126bdf513ab.png" xmlns="">0xuwNCLco4kyJJ_ZzHjfc9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

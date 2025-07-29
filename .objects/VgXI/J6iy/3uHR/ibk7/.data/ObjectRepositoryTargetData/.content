@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uk4t9T36vUe1-wapDBlP6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvElementArea="477, 237, 166, 26" CvType="InputBox" DesignTimeRectangle="478, 238, 161, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl id='todate' type='text' tag='INPUT' class='form-control fut-enabled ng-pristine ng-valid ng-not-empty hasDatepicker allowsmartnote_original ng-touched' placeholder='MM/DD/YYYY' aaname='' /&gt;" Guid="8bc634f3-25a5-4556-83bb-eaf7a435aa18" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d37f775f-aaf6-49b4-9090-ff3cacd6b4fc" CvTextArea="458, 243, 15, 11" CvTextArgument="To" CvType="Text" DesignTimeRectangle="454, 243, 24, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimLookupTbl2' tag='TABLE' /&gt;&lt;webctrl aaname='To' type='' tag='DIV' class='mt5 text-center' check:innerText='To' /&gt;" Guid="1b8085f3-69f1-41b3-9e51-eb88bc1c3f00" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="61f1c823443984fb35cbc82dd0ffc167.png" xmlns="">0gMnZYgribkOfEHXjvIxg5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

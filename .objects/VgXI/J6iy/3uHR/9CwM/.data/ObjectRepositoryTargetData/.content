@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W11QpofyDkW1Ek1IsYbmhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" CvElementArea="1512, 922, 63, 27" CvTextArea="1523, 929, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1513, 924, 60, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='patient-demographicsBtn57' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs hk-target hk-decorated' aaname='ALT + C' check:innerText='Cancel' /&gt;" Guid="7028774b-31da-4884-9d99-6030bc096a54" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Munera, Ruben )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5edb188-f658-43a4-8c4e-d20268cf65a6" CvElementArea="1512, 922, 63, 27" CvTextArea="1523, 929, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1524, 927, 8, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='patient-demographicsBtn57' tag='DIV' type='' class='hk-underline' aaname='C' check:innerText='C' /&gt;" Guid="efd9abc6-56c1-4b3a-bd82-acde2c159d60" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7fa0365ec9aa8faec21a5ca7336468f0.png" xmlns="">0YzQcGkS660yrl1OSbZvW9Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

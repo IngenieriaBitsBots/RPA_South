@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FuqgAYCjjkyCmOFygsUTZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp" CVScreenId="ad19225e-8be2-4b17-a708-96e3f686f3f0" CvTextArea="624, 112, 683, 17" CvTextArgument="eClinicalWorks X" CvType="Text" DesignTimeRectangle="624, 112, 683, 18" DesignTimeScaleFactor="1.25" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='clearfix' parentid='alert' tag='DIV' type='' aaname='' /&gt;" Guid="09f5c621-5388-498b-a739-86eba16a500d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/changePasswordOnLogin.jsp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f0cdc447530f1687a26d2e9381da4e7.png" xmlns="">0vwiyKePM5Emb0wVZks4Rkg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
